@@ -1,0 +1,10 @@
+.message{
+
+    max-width: 95%;
+    height: 75px;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    margin: 10px;
+    text-align: center;
+    color: #69CD68;
+}

@@ -1,0 +1,20 @@
+.gameHeader{
+
+    padding: 15px;
+    padding-left: 30px;
+    background-color:transparent;	
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.gameHeader-title{
+
+    width: 55%;
+    font-size: 1.3rem;
+    margin: 20px auto;
+    color: #69CD68;
+    font-weight: bold;
+}

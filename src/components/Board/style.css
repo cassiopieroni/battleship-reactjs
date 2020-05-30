@@ -1,0 +1,25 @@
+.boardArea{
+    
+    width: max-content;
+    min-height: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.board{
+
+    box-shadow: 0 0 5px 5px #000;
+    border: 1px solid #f4f4f4;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.board-line{
+
+    display: flex;
+}

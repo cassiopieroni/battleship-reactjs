@@ -1,0 +1,18 @@
+.game{
+
+    width: 98%;
+    min-height: max-content;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 1100px) {
+
+    .game {
+        width: 900px;
+    }
+}

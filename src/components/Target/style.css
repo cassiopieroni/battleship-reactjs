@@ -1,0 +1,29 @@
+.target{
+
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2px;
+    transition: ease-out 0.2s;
+    background-color: rgba(244, 244, 244, .07);
+}
+
+    .target:hover{
+        background-color: transparent;
+        border: 1px solid #010D26;
+        box-shadow: inset 0 0 15px 5px rgba(0,0,0,.5);
+        cursor: url('../../assets/target-33x33.png') 15 15, auto;
+    }
+
+.target-tookShot {
+    background-color: transparent;
+}
+
+.target-tookShot:hover {
+
+    border: 1px solid #f4f4f4;
+    box-shadow: none;
+}

@@ -1,0 +1,1 @@
+export const countersPresentation = val => (val <= 9) ? `00${val}` : `0${val}`;
